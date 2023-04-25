@@ -9,7 +9,7 @@ swap=*x;
 *x=*y;
 *y=swap;
 }
-void main(int data)
+void main()
 {
 int x=500,y=100;
 swap(&x,&y);//passing value to function
